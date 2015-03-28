@@ -20,4 +20,7 @@ setFull : setFull.c
 	gcc -Wall setFull.c -o setFull
 
 showOff : showOff.c
-	gcc -Wall showOff.c -o showOff -std=c11
+	gcc -Wall showOff.c -o showOff -std=gnu99
+
+armDrive : armDrive.c
+	gcc -Wall armDrive.c -o armDrive -std=gnu99 -lncurses

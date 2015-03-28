@@ -4,7 +4,7 @@
 #include <time.h>
 #include <stdio.h>
 
-#define _POSIX_C_SOURCE 200809L
+//#define _POSIX_C_SOURCE 200809L
 
 int main(int argc, char *argv[]){
 
